@@ -20,11 +20,11 @@ size_t binary_tree_size(const binary_tree_t *tree)
 	return (count);
 }
 /**
- * incre_index - function that
+ * incre_index - function that increase the index of left and right sub-trees
  * @tree:  a pointer to the root node of the tree to check
  * @index: index of root node
  * @nuno: number of nodes of binary tree
- * Return: A integer, index
+ * Return: 1 tree is complete binary tree, else 0.
  */
 int incre_index(const binary_tree_t *tree, size_t index, size_t nuno)
 {
